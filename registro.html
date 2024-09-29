@@ -25,32 +25,56 @@
         <h1>Create una cuenta para poder Comprar</h1>
     </header>
     <main>
-        <form action="" method="get">
-            <label for="nombre">Nombre</label><br>
-            <input type="text" placeholder="Ingrese su Nombre" name="nombre">
-            <br>
-            <label for="Apellido">Apellido</label><br>
-            <input type="text" placeholder="Ingrese su Apellido" name="Apellido">
-            <br>
-            <label for="nacimiento">fecha de nacimiento</label><br>
-            <input type="date"  name="nacimiento">
-            <br>
-            <label for="correo">Correo electronico</label><br>
-            <input type="email" placeholder="Ingrese un correo"  name="correo">
-            <br>
-            <label for="telefono">Numero de telefono</label><br>
-            <input type="tel" placeholder="ingrese su numero" name="telefono">
+        <form action="/home.html" method="GET">
+            <label for="nombre_completo">Nombre y Apellido</label><br>
+            <input type="text" placeholder="Ingrese su Nombre y Apellido" name="nombre_completo"/>
             <br>
             <label for="Usuario">Nombre de Usuario</label><br>
-            <input type="text" placeholder="ingrese un Nombre de Usuario" name="Usuario">
+            <input type="text" placeholder="ingrese un Nombre de Usuario" name="Usuario"/>
+            <br>
+            <label for="correo">Correo electronico</label><br>
+            <input type="email" placeholder="Ingrese un correo"  name="correo"/>
+            <br>
+            <label for="nacimiento">fecha de nacimiento</label><br>
+            <input type="date"  name="nacimiento"/>
+            <br>
+            <label for="usuario">ingrese su direccion</label><br>
+            <input type="address" placeholder="ingrese su direccion" name="direccion"/>
+            <br>
+            <p>Perfil de Usuario</p>
+            <label for="perfil-usuario-vendedor">Vendedor</label>
+            <input type="radio" name="perfil_usuario" id="perfil-usuario-vendedor" value="Vendedor"/>
+            <label for="perfil-usuario-comprador">Comprador</label>
+            <input type="radio" name="perfil_usuario" id="perfil-usuario-comprador" value="Comprador"/>
+            <br>
+            <p>Elige tus categorias de interes</p>
+            
+            <input type="checkbox" name="categoria_interes" id="categoria_Electro" value="Electro"/>
+            <label for="categoria_Electro">Electro</label><br>
+            
+            <input type="checkbox" name="categoria_interes" id="categoria_Moda" value="Moda"/>
+            <label for="categoria_Moda">Moda</label><br>
+            
+            <input type="checkbox" name="categoria_interes" id="categoria_Hogar" value="Hogar"/>
+            <label for="categoria_Hogar">Hogar</label><br>
+            
+            <input type="checkbox" name="categoria_interes" id="categoria_Jugueteria" value="Jugueteria"/>
+            <label for="categoria_Jugueteria">Jugueteria</label><br>
+           
+            <input type="checkbox" name="categoria_interes" id="categoria_vida_sana" value="Vida_sana"/>
+            <label for="categoria_vida_sana">Vida Sana</label>
+            <br>
+            <label for="foto_usuario">agregue una foto</label><br>
+            <input type="file" name="foto_usuario" accept=".jpg, .png, .jpeg, .gif, .bmp"/>
             <br>
             <label for="Contraseña">Contraseña</label><br>
-            <input type="password" placeholder="Ingrese su Contraseña" name="Contraseña">
+            <input type="password" placeholder="Ingrese su Contraseña" name="Contraseña"/>
             <br>
             <label for="Contraseña">confirmar Contraseña</label><br>
-            <input type="password" placeholder="Confirme su contraseña" name="Contraseña">
+            <input type="password" placeholder="Confirme su contraseña" name="Contraseña"/>
             <br>
-            <button type="submit">Registrar</button>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
         </form>
        
     </main>
