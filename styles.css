@@ -1,0 +1,144 @@
+
+/* Tipos de selectores */
+
+/* .selector-clase */
+/* selector-elemento */
+/* [selector-atributo] */
+/* #selector-id */
+/* el anidamiento se puede hacer de dos formas: primerSelector > segundo-selector, primerSelector segundoSelector */
+
+/* primerSelector > segundo-selector tercerSelector > cuartoSelector{
+    <primerSelector>
+     <segundoSelector>
+    </primerSelector>
+}
+
+<primerSelector>
+     <selector>
+        <segundoSelector>
+    </selector>
+    </primerSelector> */
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.color-blanco {
+    color: #fff;
+}
+.color-fondo-blanco {
+    background-color: #fff;
+}
+
+.color-amarillo {
+    color: #EAC926;
+}
+.color-fondo-amarillo {
+  background-color: #EAC926;
+}
+
+.color-azul {
+    color: #03264C;
+}
+.color-fondo-azul {
+    background-color: #03264C;
+}
+
+.color-celeste {
+    color: #1259c3;
+}
+.color-fondo-celeste {
+    background-color: #1259c3;
+}
+
+.color-gris-oscuro {
+    color: #666;
+}
+.color-fondo-gris-oscuro {
+    background-color: #666;
+}
+
+.color-gris-claro {
+    color: #ebebeb;
+}
+.color-fondo-gris-claro {
+    background-color: #ebebeb;
+}
+
+.color-verde {
+    color: #39b54a;
+}
+.color-fondo-verde {
+    background-color: #39b54a;
+}
+
+.boton-primario {
+    background-color: #1259c3;
+    border: none;
+    color: #fff;
+    outline: none;
+    border-radius: 2px;
+    padding: 8px;
+}
+.boton-secundario {
+    background-color: #666;
+    border: none;
+    color: #fff;
+    outline: none;
+    border-radius: 2px;
+    padding: 8px;
+}
+.icono-Footer {
+    font-size: 2em;
+    background-color: #fff;
+    margin-bottom: 10px;
+    color: #1259c3;
+
+
+}
+
+.iconos-header {
+    color: black;
+}
+.input-texto {
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.text-align-center {
+    text-align: center;
+}
+.ocultar {
+    display: none;
+}
+.burger-menu-contenedor {
+    display: none;
+}
+
+/* .burger-menu:active > .burger-menu-contenedor {
+    display: block;
+} */
+
+#check:checked ~ .burger-menu-contenedor {
+    display: block;
+}
+
+
+
+nav {
+    padding: 1.5rem 2rem;
+    background-color: #EAC926;
+    color: #fff;
+}
