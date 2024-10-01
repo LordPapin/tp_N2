@@ -48,20 +48,20 @@
         <main class="text-align-center">
             <h1>Create una cuenta para poder Comprar</h1>
             <form action="/home.html" method="GET">
-                <input class="input-texto" type="text" placeholder="Nombre y Apellido" name="nombre_completo"/>
+                <input class="input-texto" type="text" placeholder="Nombre y Apellido" name="nombre_completo" required/>
                 <br>
-                <input class="input-texto" type="text" placeholder="Nombre de Usuario" name="Usuario"/>
+                <input class="input-texto" type="text" placeholder="Nombre de Usuario" name="Usuario" required/>
                 <br>
-                <input class="input-texto" type="email" placeholder="correo electronico"  name="correo"/>
+                <input class="input-texto" type="email" placeholder="correo electronico"  name="correo" required/>
                 <br>
                 <label for="nacimiento"><strong>Fecha de nacimiento</strong></label><br>
-                <input class="input-texto" type="date"  name="nacimiento"/>
+                <input class="input-texto" type="date"  name="nacimiento"required/>
                 <br>
-                <input class="input-texto type="address" placeholder="ingrese su direccion" name="direccion"/>
+                <input class="input-texto type="address" placeholder="ingrese su direccion" name="direccion" required/>
                 <br>
                 <p><strong>Perfil de Usuario</strong></p>
                 <label for="perfil-usuario-vendedor">Vendedor</label>
-                <input type="radio" name="perfil_usuario" id="perfil-usuario-vendedor" value="Vendedor"/>
+                <input type="radio" name="perfil_usuario" id="perfil-usuario-vendedor" value="Vendedor" />
                 <label for="perfil-usuario-comprador">Comprador</label>
                 <input type="radio" name="perfil_usuario" id="perfil-usuario-comprador" value="Comprador"/>
                 <br>
@@ -83,11 +83,11 @@
                 <label for="categoria_vida_sana">Vida Sana</label>
                 <br>
                 <label for="foto_usuario"><strong>Agregue una foto</strong></label><br>
-                <input type="file" name="foto_usuario" accept=".jpg, .png, .jpeg, .gif, .bmp"/>
+                <input type="file" name="foto_usuario" accept=".jpg, .png, .jpeg, .gif, .bmp" required/>
                 <br>
-                <input class="input-texto" type="password" placeholder="Ingrese su Contraseña" name="Contraseña"/>
+                <input class="input-texto" type="password" placeholder="Ingrese su Contraseña" name="Contraseña"required/>
                 <br>
-                <input class="input-texto" type="password" placeholder="Confirme su contraseña" name="Contraseña"/>
+                <input class="input-texto" type="password" placeholder="Confirme su contraseña" name="Contraseña"required/>
                 <br>
                 <button class="boton-primario" type="submit">Enviar</button>
                 <button class="boton-secundario" type="reset">Borrar</button>
