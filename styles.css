@@ -105,8 +105,50 @@
 
 }
 
+
+.articulo {
+    position: relative;
+    border-bottom: 10px solid #ebebeb;
+    border-top: 10px solid #ebebeb ;
+}
+.articulo-div {
+    box-shadow: 0 0 10 rgb(100, 100, 100);
+    border-top: 2px solid #ebebeb ;
+    padding: 15px;
+}
+.desplegar-info-articulo1 {
+    display: none;
+}
+.desplegar-info-articulo2 {
+    display: none;
+}
+.desplegar-info-articulo3 {
+    display: none;
+}
+.desplegar-info-articulo4 {
+    display: none;
+}
+.desplegar-info-articulo5 {
+    display: none;
+}
+.desplegar-info-articulo6 {
+    display: none;
+}
+.desplegar-info-articulo7 {
+    display: none;
+}
+.desplegar-info-articulo8 {
+    display: none;
+}
+.ancho-main{
+    width: 90%;
+}
 .iconos-header {
     color: black;
+
+}
+.iconos-main {
+    color: #39b54a;
 }
 .input-texto {
     border: none;
@@ -134,11 +176,82 @@
 #check:checked ~ .burger-menu-contenedor {
     display: block;
 }
-
-
-
+#check1:checked ~ .desplegar-info-articulo1 {
+    display: block;
+}
+#check2:checked ~ .desplegar-info-articulo2 {
+    display: block;
+}
+#check3:checked ~ .desplegar-info-articulo3 {
+    display: block;
+}
+#check4:checked ~ .desplegar-info-articulo4 {
+    display: block;
+}
+#check5:checked ~ .desplegar-info-articulo5 {
+    display: block;
+}
+#check6:checked ~ .desplegar-info-articulo6 {
+    display: block;
+}
+#check7:checked ~ .desplegar-info-articulo7 {
+    display: block;
+}
+#check8:checked ~ .desplegar-info-articulo8 {
+    display: block;
+}
+.menu1 {
+    display: block;
+}
+.menu2 {
+    display: none;
+}
+.home-conteiner-img {
+    width: 100%;
+}
 nav {
     padding: 1.5rem 2rem;
     background-color: #EAC926;
     color: #fff;
+}
+@media (min-width: 768px) {
+    header {
+        .menu1 {
+            display: none;
+        }
+        .burger-menu-contenedor{
+            display: none;
+        }
+        .menu2 {
+            display: block;
+        }
+        
+    }
+    main {
+        .desplegar-info-articulo1{
+            display: block;
+        }
+        .desplegar-info-articulo2{
+            display: block;
+        }
+        .desplegar-info-articulo3{
+            display: block;
+        }
+        .desplegar-info-articulo4{
+            display: block;
+        }
+        .desplegar-info-articulo5{
+            display: block;
+        }
+        .desplegar-info-articulo6{
+            display: block;
+        }
+        .desplegar-info-articulo7{
+            display: block;
+        }
+        .desplegar-info-articulo8{
+            display: block;
+        }
+    }
+        
 }
