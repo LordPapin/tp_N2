@@ -11,24 +11,26 @@
         <link rel="stylesheet" href="styles.css"/>
     </head>
     <body class="roboto-regular color-fondo-gris-claro">        
-        <header class="color-fondo-amarillo text-align-center">
-        <a href="home.html"><img src="images\logo-mercado-liebre.svg" alt=""></a>
-        <form action="">
-            <input type="text">
-            <button type="submit">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-        </form>
-            <div>
+        <header class="color-fondo-amarillo">
+            <a href="home.html"><img src="images\logo-mercado-liebre.svg" ></a>
+            <form action="" class="text-align-center">
+                <input type="text" > 
+                
+                <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            </form>
+            <div class="text-align-center">
                 <i class="fa-solid fa-hand-holding-dollar"></i><span>Comprá en cuotas y sin tarjeta de crédito</span>
             </div>
                 
-            <nav> 
+            <nav class="menu1 text-align-center"> 
                 <input type="checkbox" class="ocultar"  id="check">
                 <label for="check" class="boton-primario">
                     <i class="fa-solid fa-bars"></i>
                 </label>
-  
+    
                  <div class="burger-menu-contenedor w3-animate-right">
                     <br>
                     <a href="https://www.mercadolibre.com.ar/ofertas#nav-header">Ofertas</a><br>
@@ -43,9 +45,21 @@
                     <br>
                 </div>
             </nav>
-            
-
-        </header>
+            <nav class="menu2"> 
+                <div class="text-align-center">
+                    <a class="links-header" href="https://www.mercadolibre.com.ar/ofertas#nav-header">Ofertas</a>
+                    <a class="links-header" href="https://www.mercadolibre.com.ar">Tiendas Oficiales</a>
+                    <a class="links-header" href="https://www.mercadolibre.com.ar/syi/core/list#nav-header">Vender</a>
+                    <a class="links-header" href="https://www.mercadolibre.com.ar/ayuda#nav-header">Ayuda</a>
+                    <a class="links-header" href="registro.html">Creá tu cuenta <span><i class="fa-regular fa-address-card iconos-header"></i></span></a>
+                    
+                    <a class="links-header" href="login.html">Ingresá <span><i class="fa-solid fa-right-to-bracket iconos-header"></i></span></a>
+                    
+                    <a class="links-header" href="https://myaccount.mercadolibre.com.ar/purchases/list#nav-header">Mis Compras<span><i class="fa-solid fa-basket-shopping iconos-header"></i></span></a>
+                    
+                </div>
+            </nav>
+           </header>
         <main class="color-fondo-gris-claro text-align-center">
             <h1 class="text-align-center">Ingresa con tu cuenta</h1>
             <form action="/home.html" method="get">
