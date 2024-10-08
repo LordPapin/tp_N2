@@ -12,25 +12,26 @@
     </head>
     <body class="roboto-regular color-fondo-gris-claro text-align-center">
        <header class="color-fondo-amarillo">
-        <img src="images\logo-mercado-liebre.svg" alt="">
-        <form action="">
-            <input type="text">
-            <button type="submit">
+        <img class="img-header" src="images\logo-mercado-liebre.svg" alt="">
+        <form class="buscador-header" action="">
+            <input type="text" placeholder="Buscar Productos">
+            <button class="button-buscador" type="submit">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
         </form>
         </form>
-        <div>
-            <i class="fa-solid fa-hand-holding-dollar"></i><span>Comprá en cuotas y sin tarjeta de crédito</span>
+        <div class="compra-cuotas-header">
+            <p><i class="fa-solid fa-hand-holding-dollar "></i>Comprá en cuotas y sin tarjeta de crédito</p>
         </div>
             
         <nav class="menu1 text-align-center"> 
-            <input type="checkbox" class="ocultar"  id="check">
+            <input type="checkbox" class="ocultar" id="check">
             <label for="check" class="boton-primario">
                 <i class="fa-solid fa-bars"></i>
             </label>
 
-             <div class="burger-menu-contenedor w3-animate-right">
+             <div class="burger-menu-contenedor ">
+                <br>
                 <a href="https://www.mercadolibre.com.ar/ofertas#nav-header">Ofertas</a><br>
                 <a href="https://www.mercadolibre.com.ar">Tiendas Oficiales</a><br>
                 <a href="https://www.mercadolibre.com.ar/syi/core/list#nav-header">Vender</a><br>
@@ -59,21 +60,20 @@
             </div>
         </nav>
        </header>
-       <main class="ancho-main ">
-        <div>
-            <img src="images\img-home-banner.jpg" width="110%">
-         </div>
-        <section>
-                <h2>Sección: Basada en tu última visita</h2>
+       <div>
+           <img src="images\img-home-banner.jpg" width="100%">
+        </div>
+       <main class="ancho-main">
+         <h2>Sección: Basada en tu última visita</h2>
+        <section class="seccion-articulo">
                 <article class="articulo color-fondo-blanco" >
-                    <input type="checkbox" class="ocultar"  id="check1">
+                    <input type="checkbox" class="ocultar checkbox-detalle-articulo" id="check1">
                     <label for="check1" >
-                        <img src="images\img-cafetera-moulinex.jpg" width="300" height="300">
+                        <img src="images\img-cafetera-moulinex.jpg" >
                     </label>
                     
-                    <div class="articulo-div  desplegar-info-articulo1" >
-                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span><br>
-                        <br>
+                    <div class="articulo-div  desplegar-info-articulo" >
+                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
                         <p>$6.770</p>
                         <p class="color-verde">40% off</p>
                         <p><strong>Cafetera Moulinex</strong></p>
@@ -81,14 +81,13 @@
                 </article>
                 
                 <article class="articulo color-fondo-blanco">
-                    <input type="checkbox" class="ocultar"  id="check2">
+                    <input type="checkbox" class="ocultar checkbox-detalle-articulo" id="check2">
                     <label for="check2" >
-                        <img src="images\img-macbook-pro-2019.jpg" width="300" height="300">
+                        <img src="images\img-macbook-pro-2019.jpg" >
                     </label>
                      
-                    <div class="articulo-div  desplegar-info-articulo2">
-                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span><br>
-                        <br>
+                    <div class="articulo-div  desplegar-info-articulo">
+                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
                         <p>$230.000</p>
                         <p class="color-verde">20% off</p>
                         <p><strong>MacBook Pro 2019</strong></p>
@@ -96,14 +95,13 @@
                 </article>
                
                 <article class="articulo color-fondo-blanco">
-                    <input type="checkbox" class="ocultar"  id="check3">
+                    <input type="checkbox" class="ocultar checkbox-detalle-articulo" id="check3">
                     <label for="check3" >
-                        <img src="images\img-samsung-galaxy-s10.jpg" width="300" height="300">
+                        <img src="images\img-samsung-galaxy-s10.jpg" >
                     </label>
                     
-                    <div class="articulo-div  desplegar-info-articulo3">
-                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span><br>
-                        <br>
+                    <div class="articulo-div  desplegar-info-articulo">
+                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
                         <p>$70.500</p>
                         <p class="color-verde">10% off</p>
                         <p><strong>Samsung Galaxy S10</strong></p>
@@ -111,14 +109,13 @@
                 </article>
                 
                 <article class="articulo color-fondo-blanco">
-                    <input type="checkbox" class="ocultar"  id="check4">
+                    <input type="checkbox" class="ocultar checkbox-detalle-articulo" id="check4">
                     <label for="check4" >
-                        <img src="images\img-tv-samsung-smart.jpg" width="300" height="300">
+                        <img src="images\img-tv-samsung-smart.jpg" >
                     </label>
                     
-                    <div class="articulo-div  desplegar-info-articulo4">
-                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span><br>
-                        <br>
+                    <div class="articulo-div  desplegar-info-articulo">
+                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
                         <p>$23.500</p>
                         <p class="color-verde">5% off</p>
                         <p><strong>SmartTv Samsung 43"</strong></p>
@@ -127,17 +124,16 @@
                 
                 <br>
         </section>
-        <section>
-            <h2>Sección de Ofertas</h2>
+        <h2>Sección de Ofertas</h2>
+        <section  class="seccion-articulo">
                 <article class="articulo color-fondo-blanco">
-                    <input type="checkbox" class="ocultar"  id="check5">
+                    <input type="checkbox" class="ocultar checkbox-detalle-articulo" id="check5">
                     <label for="check5" >
-                        <img src="images\img-cafetera-moulinex.jpg" width="300" height="300">
+                        <img src="images\img-cafetera-moulinex.jpg" >
                     </label>
                     
-                    <div class="articulo-div  desplegar-info-articulo5">
-                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span><br>
-                        <br>
+                    <div class="articulo-div  desplegar-info-articulo">
+                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
                         <p>$6.770</p>
                         <p class="color-verde">40% off</p>
                         <p><strong>Cafetera Moulinex</strong></p>
@@ -145,14 +141,13 @@
                 </article>
                 
                 <article class="articulo color-fondo-blanco">
-                    <input type="checkbox" class="ocultar"  id="check6">
+                    <input type="checkbox" class="ocultar checkbox-detalle-articulo" id="check6">
                     <label for="check6" >
-                        <img src="images\img-macbook-pro-2019.jpg" width="300" height="300">
+                        <img src="images\img-macbook-pro-2019.jpg" >
                     </label>
                     
-                    <div class="articulo-div  desplegar-info-articulo6">
-                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span><br>
-                        <br>
+                    <div class="articulo-div  desplegar-info-articulo">
+                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
                         <p>$230.000</p>
                         <p class="color-verde">20% off</p>
                         <p><strong>MacBook Pro 2019</strong></p>
@@ -160,14 +155,13 @@
                 </article>
                 
                 <article class="articulo color-fondo-blanco">
-                    <input type="checkbox" class="ocultar"  id="check7">
+                    <input type="checkbox" class="ocultar checkbox-detalle-articulo" id="check7">
                     <label for="check7" >
-                        <img src="images\img-samsung-galaxy-s10.jpg" width="300" height="300">
+                        <img src="images\img-samsung-galaxy-s10.jpg" >
                     </label>
                    
-                    <div class="articulo-div  desplegar-info-articulo7 tec">
-                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span><br>
-                        <br>
+                    <div class="articulo-div  desplegar-info-articulo ">
+                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
                         <p>$70.500</p>
                         <p class="color-verde">10% off</p>
                         <p><strong>Samsung Galaxy S10</strong></p>
@@ -175,16 +169,18 @@
                 </article>
                 
                 <article class="articulo color-fondo-blanco">
-                    <input type="checkbox" class="ocultar"  id="check8">
+                    <input type="checkbox" class="ocultar checkbox-detalle-articulo" id="check8">
                     <label for="check8" >
-                        <img src="images\img-tv-samsung-smart.jpg" width="300" height="300">
+                        <img src="images\img-tv-samsung-smart.jpg" >
                     </label>
                     
-                    <div class="articulo-div  desplegar-info-articulo8">
-                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span><br>
-                        <br>
-                        <p>$23.500</p>
-                        <p class="color-verde" >5% off</p>
+                    <div class="articulo-div  desplegar-info-articulo">
+                        <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
+                        <div class="articulo-precio">
+                            <span>$23.500</span>
+                            <span class="color-verde" >5% off</span>
+                        </div>
+                        
                         <p><strong>SmartTv Samsung 43"</strong></p>
                     </div>
                 </article>
