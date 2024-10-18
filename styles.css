@@ -141,11 +141,13 @@
 .articulo {
     width: 100%;
     flex: 0 1 100%;
-    position: relative;
-    box-shadow: 0 0 10px rgb(100, 100, 100);
+    position: relative;    
     padding: 15px;
     margin: 15px;
     box-sizing: border-box;
+}
+.articulo:hover {
+    box-shadow: 0 0 10px rgb(100, 100, 100);
 }
 
 .articulo-precio {
@@ -172,7 +174,13 @@
 }
 .desplegar-info-articulo {
     text-align: left;
-    display: none;
+    /* display: none; */
+}
+.articulo-descripcion {
+    visibility: hidden;
+}
+.articulo:hover .articulo-descripcion {
+    visibility: visible;
 }
 .ancho-main{
     width: 90%;
@@ -247,7 +255,7 @@ nav {
 }
 
 .compra-cuotas-header{
-    width 100%;
+    width: 100%;
     text-align: center;
 }
 .button-buscador {
@@ -292,6 +300,19 @@ nav {
     align-items: center;
 }
 
+.articulo :hover ~ .desplegar-info-articulo {
+    display: block;
+} 
+/*.articulo :active {
+
+    box-shadow: 0 0 10px rgb(100, 100, 100);
+
+    
+} */
+
+.circle:hover{            
+    transform: rotate(-90deg);
+}
 
 @media (min-width: 320px) {
     header {
@@ -325,16 +346,6 @@ nav {
         }
         
     }
-    main {
-        .desplegar-info-articulo{
-            display: block;
-            text-align: center;
-        }
-        .shadow-box{
-            display: none;
-        }
-        
-    }
 
     .articulo {
         width: 45%;
@@ -349,33 +360,14 @@ nav {
         flex: 0 1 21.5%;
         /* box-shadow: none; */
         }
-  
-
-        /* .desplegar-info-articulo{
-            display: none;
-            }  
-        .articulo :hover ~ .desplegar-info-articulo {
-            display: block;
-            
-
-        } 
-        .articulo :active {
-        
-            box-shadow: 0 0 10px rgb(100, 100, 100);
-
-            
-        } */
-  
-        .circle :hover{
-        -webkit-transform: rotate(-90deg);
-        }
+       
     }
     footer{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
       
-        .icono-Footer :hover{
+        .icono-Footer i:hover{
             color: #39b54a;
         }
         .div-footer{
