@@ -67,18 +67,21 @@
            <img src="images\img-home-banner.jpg" width="100%">
         </div>
        <main class="ancho-main">
-         <h2>Sección: Basada en tu última visita</h2>
-        <section class="seccion-articulo">
-                <article class="articulo color-fondo-blanco" >
+            <h2>Sección: Basada en tu última visita</h2>
+            <section class="seccion-articulo">
+                <article class="articulo color-fondo-blanco">
                     <input type="checkbox" class="ocultar checkbox-detalle-articulo" id="check1">
                     <label for="check1" >
                         <img src="images\img-cafetera-moulinex.jpg" >
                     </label>
                     
-                    <div class="articulo-div  desplegar-info-articulo" >
+                    <div class="articulo-div  desplegar-info-articulo">
                         <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
-                        <p>$6.770</p>
-                        <p class="color-verde">40% off</p>
+                        <div class="articulo-precio">
+                            <span>$6.770</span>
+                            <span class="color-verde">40% off</span>
+                        </div>
+
                         <p><strong>Cafetera Moulinex</strong></p>
                     </div>
                 </article>
@@ -88,25 +91,31 @@
                     <label for="check2" >
                         <img src="images\img-macbook-pro-2019.jpg" >
                     </label>
-                     
+                    
                     <div class="articulo-div  desplegar-info-articulo">
                         <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
-                        <p>$230.000</p>
-                        <p class="color-verde">20% off</p>
+                        <div class="articulo-precio"> 
+                            <span>$230.000</span>
+                            <span class="color-verde">20% off</span>
+                        </div>
+                        
                         <p><strong>MacBook Pro 2019</strong></p>
                     </div>
                 </article>
-               
+                
                 <article class="articulo color-fondo-blanco">
                     <input type="checkbox" class="ocultar checkbox-detalle-articulo" id="check3">
                     <label for="check3" >
                         <img src="images\img-samsung-galaxy-s10.jpg" >
                     </label>
-                    
-                    <div class="articulo-div  desplegar-info-articulo">
+                   
+                    <div class="articulo-div  desplegar-info-articulo ">
                         <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
-                        <p>$70.500</p>
-                        <p class="color-verde">10% off</p>
+                        <div class="articulo-precio">
+                            <span>$70.500</span>
+                            <span class="color-verde">10% off</span>
+                        </div>
+                        
                         <p><strong>Samsung Galaxy S10</strong></p>
                     </div>
                 </article>
@@ -119,16 +128,19 @@
                     
                     <div class="articulo-div  desplegar-info-articulo">
                         <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
-                        <p>$23.500</p>
-                        <p class="color-verde">5% off</p>
+                        <div class="articulo-precio">
+                            <span>$23.500</span>
+                            <span class="color-verde" >5% off</span>
+                        </div>
+                        
                         <p><strong>SmartTv Samsung 43"</strong></p>
                     </div>
                 </article>
                 
                 <br>
-        </section>
-        <h2>Sección de Ofertas</h2>
-        <section  class="seccion-articulo">
+            </section>
+                <h2>Sección de Ofertas</h2>
+            <section  class="seccion-articulo">
                 <article class="articulo color-fondo-blanco">
                     <input type="checkbox" class="ocultar checkbox-detalle-articulo" id="check5">
                     <label for="check5" >
@@ -137,8 +149,11 @@
                     
                     <div class="articulo-div  desplegar-info-articulo">
                         <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
-                        <p>$6.770</p>
-                        <p class="color-verde">40% off</p>
+                        <div class="articulo-precio">
+                            <span>$6.770</span>
+                            <span class="color-verde">40% off</span>
+                        </div>
+
                         <p><strong>Cafetera Moulinex</strong></p>
                     </div>
                 </article>
@@ -151,8 +166,11 @@
                     
                     <div class="articulo-div  desplegar-info-articulo">
                         <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
-                        <p>$230.000</p>
-                        <p class="color-verde">20% off</p>
+                        <div class="articulo-precio"> 
+                            <span>$230.000</span>
+                            <span class="color-verde">20% off</span>
+                        </div>
+                        
                         <p><strong>MacBook Pro 2019</strong></p>
                     </div>
                 </article>
@@ -165,8 +183,11 @@
                    
                     <div class="articulo-div  desplegar-info-articulo ">
                         <span class="circle "><i class="fa-solid fa-truck iconos-main truck"></i></span>
-                        <p>$70.500</p>
-                        <p class="color-verde">10% off</p>
+                        <div class="articulo-precio">
+                            <span>$70.500</span>
+                            <span class="color-verde">10% off</span>
+                        </div>
+                        
                         <p><strong>Samsung Galaxy S10</strong></p>
                     </div>
                 </article>
@@ -187,36 +208,42 @@
                         <p><strong>SmartTv Samsung 43"</strong></p>
                     </div>
                 </article>
-        </section>
+            </section>
        </main>
-       <footer class="color-fondo-blanco text-align-center">
-        <br>
-        <div  class="icono-Footer">
-            <i class="fa-solid fa-credit-card"></i>
-        </div>
-        <h3>Pagá con tarjeta o en efectivo</h3>
-        <p>Con MercadoLiebreCash tenés cuotas sin <br>
-            interés con tarjeta o efectivo en puntos de <br>
-            pago. !Y siempre es seguro¡
-        </p>
-        <div class="icono-Footer">
-            <i class="fa-solid fa-gift"></i>
-        </div>
-        <h3>Envio gratis desde los $2.500</h3>
-        <p>Solo por estar registrado en MercadoLiebre <br>
-            tenés envios gratis en miles de productos. Es <br>
-            un beneficio de Mercado Puntos.
-        </p>
-        <div class="icono-Footer">
-            <i class="fa-solid fa-user-shield"></i>
-        </div>
-        <h3>Seguridad de principio a fin</h3>
-        <p>¿No te gusta? !Devolvelo¡ En MercadoLiebre <br>
-            no hay nada que no puedas hacer porque éstas <br>
-            siempre protegid@.
-        </p>
-        <p>Copiright © 1999-2020 MercadoLiebre S.R.L.</p>
-   </footer>
+       <footer class="color-fondo-blanco text-align-center ancho-footer">
+            <br>
+            <div class="div-footer">
+                <div  class="icono-Footer">
+                    <i class="fa-solid fa-credit-card"></i>
+                </div>
+                <h3>Pagá con tarjeta o en efectivo</h3>
+                <p>Con MercadoLiebreCash tenés cuotas sin <br>
+                    interés con tarjeta o efectivo en puntos de <br>
+                    pago. !Y siempre es seguro¡
+                </p>
+            </div>
+            <div class="div-footer">
+                <div class="icono-Footer">
+                    <i class="fa-solid fa-gift"></i>
+                </div>
+                <h3>Envio gratis desde los $2.500</h3>
+                <p>Solo por estar registrado en MercadoLiebre <br>
+                    tenés envios gratis en miles de productos. Es <br>
+                    un beneficio de Mercado Puntos.
+                </p>
+            </div>
+            <div class="div-footer">
+                <div class="icono-Footer">
+                    <i class="fa-solid fa-user-shield"></i>
+                </div>
+                <h3>Seguridad de principio a fin</h3>
+                <p>¿No te gusta? !Devolvelo¡ En MercadoLiebre <br>
+                no hay nada que no puedas hacer porque éstas <br>
+                siempre protegid@.
+                </p>
+            </div>
+            <p>Copiright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </footer>
         
     </body>
 </html> 
