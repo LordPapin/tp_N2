@@ -347,7 +347,6 @@ nav {
         .articulo {
         width: 21.5%;
         flex: 0 1 21.5%;
-<<<<<<< Updated upstream
         /* box-shadow: none; */
         }
   
@@ -385,13 +384,4 @@ nav {
         }
     }
 
-=======
-    }
-    .circle :hover {
-        -webkit-transform: rotate(-90deg);
-    } 
-    .icono-Footer :hover{
-        color: #39b54a;
-    } 
->>>>>>> Stashed changes
 }
